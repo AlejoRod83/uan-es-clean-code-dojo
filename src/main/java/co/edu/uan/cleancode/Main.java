@@ -18,7 +18,7 @@ public class Main {
 
         CleanCodeClass.imprime("\n- ¿Las funciones deben ser pequeñas? S/N");
         // Se pueden extraer los nombres a variables, por ejemplo, String respuesta = leer.next().toLowerCase();
-        // evitar la creación de trenes,
+        // evitar la creación de trenes
         if (leer.next().toLowerCase().startsWith("s")) {
             CleanCodeClass.imprime("Acertaste! Haz ganado 1 punto. Deben ser aún más pequeñas de lo que piensas.");
             soyPrivado.masUno();

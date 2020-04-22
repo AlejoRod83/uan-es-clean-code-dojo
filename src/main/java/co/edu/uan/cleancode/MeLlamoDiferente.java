@@ -125,7 +125,7 @@ public class MeLlamoDiferente {
     }
 
     // Los métodos deben ser nombrados con verbos
-    public void masUno() {
+    public void setMasUno() {
         this.puntaje++;
     }
 
